@@ -3,7 +3,7 @@ from random import choice
 palabrasList = ["casa", "cocodrilo", "computadora", "papeleria", "boligrafo", "corchea", "audifonos", "automobil", "escaleras", "arbol", "rompecabezas"]
 vidas = 5  #puse vidas fuera de while para hacer más dificil el juego, sin embargo basta con agregar vidas dentro del primer while para hacer que se restauren cada nueva ronda
 puntaje = 0
-# enpalabrasList se pueden agregar palabras nuevas
+# en palabrasList se pueden agregar palabras nuevas
 while True:
     palabraSecreta = choice(palabrasList)
     palabraReemplazada = ["_"] * len(palabraSecreta)
